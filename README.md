@@ -1,16 +1,22 @@
-# core_browser_poc
+How to Start Using VS Code
+Clone the project to your local machine.
 
-A new Flutter project.
+Open the project in VS Code.
 
-## Getting Started
+Run the following command to fetch dependencies:
 
-This project is a starting point for a Flutter application.
+flutter pub get
+If you see outdated dependencies, run:
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub outdated
+flutter pub upgrade
+Select a device to run the application:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigate to View > Command Palette.
+Search for Flutter: Select Device and choose a target device.
+Run the application using:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run lib/main.dart
+
+Features (Tested on Android only | Requires Android 12, API Level 31)
+A lightweight Flutter-based web browser.
