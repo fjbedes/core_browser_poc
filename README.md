@@ -1,22 +1,31 @@
-How to Start Using VS Code
-Clone the project to your local machine.
+### How to Start Using VS Code
 
-Open the project in VS Code.
+1. **Clone the project** to your local machine.
+2. Open the project in **VS Code**.
+3. Run the following command to fetch dependencies:
 
-Run the following command to fetch dependencies:
+   ```sh
+   flutter pub get
+   ```
 
-flutter pub get
-If you see outdated dependencies, run:
+4. If you see outdated dependencies, run:
 
-flutter pub outdated
-flutter pub upgrade
-Select a device to run the application:
+   ```sh
+   flutter pub outdated
+   flutter pub upgrade
+   ```
 
-Navigate to View > Command Palette.
-Search for Flutter: Select Device and choose a target device.
-Run the application using:
+5. Select a device to run the application:
 
-flutter run lib/main.dart
+   - Navigate to **View > Command Palette**.
+   - Search for **Flutter: Select Device** and choose a target device.
 
-Features (Tested on Android only | Requires Android 12, API Level 31)
-A lightweight Flutter-based web browser.
+6. Run the application using:
+
+   ```sh
+   flutter run lib/main.dart
+   ```
+
+### Features (Tested on Android only | Requires Android 12, API Level 31)
+
+- A lightweight Flutter-based web browser
